@@ -5,7 +5,7 @@ import './index.less'
 export default class Index extends Component {
 
   config = {
-    navigationBarTitleText: '演出'
+    navigationBarTitleText: '我的'
   }
 
   componentWillMount () { }
@@ -21,7 +21,7 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
-        <Text>index</Text>
+        <Text>user</Text>
       </View>
     )
   }
